@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Skynet966.github.io/React-Media-Search-App",
-  "name": "firstreactapp",
+  "homepage": "http://Skynet966.github.io/React-Media-Search-App/",
+  "name": "mediasearchapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
