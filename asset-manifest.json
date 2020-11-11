@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Media-Search-app/static/css/main.231c1907.chunk.css",
+    "main.js": "/Media-Search-app/static/js/main.d1966db9.chunk.js",
+    "main.js.map": "/Media-Search-app/static/js/main.d1966db9.chunk.js.map",
+    "runtime-main.js": "/Media-Search-app/static/js/runtime-main.f8980aaa.js",
+    "runtime-main.js.map": "/Media-Search-app/static/js/runtime-main.f8980aaa.js.map",
+    "static/js/2.01ef7708.chunk.js": "/Media-Search-app/static/js/2.01ef7708.chunk.js",
+    "static/js/2.01ef7708.chunk.js.map": "/Media-Search-app/static/js/2.01ef7708.chunk.js.map",
+    "index.html": "/Media-Search-app/index.html",
+    "precache-manifest.52899712cd8baea20eed81ec44d942a0.js": "/Media-Search-app/precache-manifest.52899712cd8baea20eed81ec44d942a0.js",
+    "service-worker.js": "/Media-Search-app/service-worker.js",
+    "static/css/main.231c1907.chunk.css.map": "/Media-Search-app/static/css/main.231c1907.chunk.css.map",
+    "static/js/2.01ef7708.chunk.js.LICENSE.txt": "/Media-Search-app/static/js/2.01ef7708.chunk.js.LICENSE.txt",
+    "static/media/loader.ec0adea4.svg": "/Media-Search-app/static/media/loader.ec0adea4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8980aaa.js",
+    "static/js/2.01ef7708.chunk.js",
+    "static/css/main.231c1907.chunk.css",
+    "static/js/main.d1966db9.chunk.js"
+  ]
+}
