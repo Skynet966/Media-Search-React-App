@@ -2,10 +2,12 @@ import React from 'react';
 
 import { ImageCard } from "../cards/image-card/image-card.component";
 
+import './media-list.styles.sass'
+
 export const MediaList = props =>{
     let jsx='';
     if(props.data.search_for==='image')
-        jsx=props.data.images.map(image=><ImageCard key={image.id} src={image.images.original.url}/>)
+        jsx=props.data.images.map(image=><ImageCard key={image.id} src={image.images.fixed_width.url}/>)
     else if(props.data.search_for==='audio')
         jsx=props.data.audios.map(audio=>console.log('audios'))
     else if(props.data.search_for==='video')

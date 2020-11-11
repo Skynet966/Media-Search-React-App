@@ -1,0 +1,21 @@
+//screen width
+$xl: 1200px
+$lg: 992px
+$md: 768px
+$sm: 576px
+$xs: 576px
+.masonry
+    column-count: 4
+    column-gap: 1em
+@media screen and ( max-width: $lg )
+    .masonry
+        column-count: 3
+@media screen and ( max-width: $md )
+    .masonry
+        column-count: 2
+@media screen and ( max-width: $sm )
+    .masonry
+        column-count: 1
+    
+    
+    

@@ -1,7 +1,3 @@
-.masonry { /* Masonry container */
-  column-count: 4;
-  column-gap: 1em;
-}
 .masonry-video-audio{
   column-count: 2;
   column-gap: 1em
@@ -13,14 +9,6 @@
   width: 100%;
 }
 
-.image-thumbnail{
-    /* padding: .25rem; */
-    margin: 0.5em 0em;
-    background-color: #fff;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
-}
 audio{
   margin:50px;
   outline:none;
