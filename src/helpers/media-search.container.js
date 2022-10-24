@@ -2,7 +2,7 @@ import React from 'react';
 import { LoadMore } from '../../components/load-more/load-more.component';
 import { Loader } from '../../components/loader/loader.component';
 import { MediaList } from '../../components/media-list/media-list.component';
-import { SearchBar } from '../../components/search-bar/search-bar.component';
+import { SearchBar } from '../../../src/components/search-bar/search-bar.component';
 export default class MediaSearch extends React.Component{
     constructor(){
         super();
