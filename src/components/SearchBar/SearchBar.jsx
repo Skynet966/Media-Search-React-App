@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, TextInput, Button, Select, Label } from 'flowbite-react';
 import { FaSearch } from 'react-icons/fa';
-const SearchBar = () => {
+const SearchBar = ({ onChange }) => {
+	//#region States
+	const [searchText, setSearchText] = useState('');
+	const [mediaOption, setMediaOption] = useState('image');
+	//#endregion
+
+	useEffect(() => {
+		onChange(searchText, mediaOption);
+	}, [mediaOption, onChange, searchText]);
+
+	const handleTextChange = event => {
+		setSearchText(event.target.value);
+	};
+	const handleMediaOptionChange = event => {
+		setMediaOption(event.target.value);
+	};
 	return (
 		<Card>
 			<h5 className='text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
@@ -17,9 +32,15 @@ const SearchBar = () => {
 						type='text'
 						className='w-full sm:basis-11/12'
 						placeholder='Search Here...'
+						onChange={handleTextChange}
 						required
 					/>
-					<Select id='countries' required={true} className='w-36'>
+					<Select
+						id='countries'
+						required={true}
+						className='w-36'
+						onSelect={handleMediaOptionChange}
+					>
 						<option selected>Images</option>
 						<option>Videos</option>
 						<option>Music</option>
